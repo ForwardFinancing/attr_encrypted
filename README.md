@@ -17,7 +17,9 @@ It works with ANY class, however, you get a few extra features when you're using
 Add attr_encrypted to your gemfile:
 
 ```ruby
-  gem "attr_encrypted", "~> 3.0.0"
+  gem 'attr_encrypted',
+    git: "#{org_url}/attr_encrypted",
+    tag: '4.0.0'
 ```
 
 Then install the gem:
