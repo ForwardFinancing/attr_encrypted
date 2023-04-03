@@ -1,6 +1,12 @@
 # attr_encrypted
-[![Build Status](https://secure.travis-ci.org/attr-encrypted/attr_encrypted.svg)](https://travis-ci.org/attr-encrypted/attr_encrypted) [![Test Coverage](https://codeclimate.com/github/attr-encrypted/attr_encrypted/badges/coverage.svg)](https://codeclimate.com/github/attr-encrypted/attr_encrypted/coverage) [![Code Climate](https://codeclimate.com/github/attr-encrypted/attr_encrypted/badges/gpa.svg)](https://codeclimate.com/github/attr-encrypted/attr_encrypted) [![Gem Version](https://badge.fury.io/rb/attr_encrypted.svg)](https://badge.fury.io/rb/attr_encrypted) [![security](https://hakiri.io/github/attr-encrypted/attr_encrypted/master.svg)](https://hakiri.io/github/attr-encrypted/attr_encrypted/master)
+## WARNING!
+This fork is taken from 3.1.0 (tag) version of the original Repo. We have forked this to fix deprecation warnings as
+original gem is not actively maintained now. The master branch has the fix but it has many more updates without
+any official release. In order to avoid any unwanted issues, we are forking from 3.1.0 we were using and fixing on top of this.
 
+We plan to remove this gem when we move to Rails 7 as it would have field encryption option out of the box
+
+## Description
 Generates attr_accessors that transparently encrypt and decrypt attributes.
 
 It works with ANY class, however, you get a few extra features when you're using it with `ActiveRecord`, `DataMapper`, or `Sequel`.
